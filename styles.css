@@ -33,10 +33,9 @@ body {
     align-items: flex-start; 
     justify-content: center;
     color: black; */
-    height: 425px; /* La altura será definida por la imagen */
+    height: auto; /* La altura será definida por la imagen */
     display: flex;
-    position: center top;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     color: black;
 }
