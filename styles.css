@@ -38,6 +38,7 @@ body {
     align-items: center;
     justify-content: center;
     color: black;
+    padding: 0;
 }
 
 /* Estilo para añadir espacio entre subsecciones */
@@ -104,7 +105,7 @@ section {
 /* Media queries para hacer el diseño responsivo */
 @media (max-width: 768px) {
     .hero {
-        height: 300px;
+        height: auto;
     }
 }
 
