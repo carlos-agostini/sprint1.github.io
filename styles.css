@@ -25,12 +25,18 @@ body {
 }
 
 .hero {
-    background-image: url('resources/whirlpool2.jpg');
+/*     background-image: url('resources/whirlpool2.jpg');
     background-size: cover;
     background-position: center top; 
     height: 425px;
     display: flex;
     align-items: flex-start; 
+    justify-content: center;
+    color: black; */
+    height: 425px; /* La altura será definida por la imagen */
+    display: flex;
+    position: center top;
+    align-items: flex-start;
     justify-content: center;
     color: black;
 }
